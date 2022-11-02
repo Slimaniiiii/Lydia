@@ -1,0 +1,85 @@
+.login_container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    background-image: url("../../../../lydia.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.login_container .brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.login_container .brand img {
+    height: 5rem;
+
+}
+
+.login_container .brand h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.login_container form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #0f7361b9;
+    border-radius: 2rem;
+    padding: 5rem;
+}
+
+.login_container input {
+    background-color: transparent;
+    padding: 1rem;
+    border: 0.1rem solid #137e3c;
+    border-radius: 0.4rem;
+    color: white;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.login_container input:focus {
+    border: 0.1rem solid #38ac6c;
+    outline: none;
+}
+.login_container input::placeholder {
+    color: rgb(121, 182, 132);
+}
+
+   button {
+    background-color: #048636;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.login_container button:hover {
+    background-color: #2ea85d;
+}
+
+.login_container span {
+    color: white;
+    text-transform: uppercase;
+}
+
+.login_container span a {
+    color: #36ff0e;
+    text-decoration: none;
+    font-weight: bold;
+}

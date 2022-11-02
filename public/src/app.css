@@ -1,0 +1,85 @@
+#dark {
+    background-color: #011627 !important;
+    color: #fff !important;
+}
+
+#dark .chat_container {
+    background-image: unset;
+    background-color: #011627;
+}
+
+#dark .welcome {
+    background-color: #011627;
+}
+
+#dark .welcome span {
+    color: #1e85da;
+}
+
+#dark .contact_container {
+    background-color: #032139b4 !important;
+}
+
+#dark .containerr {
+    background-color: #032139bf !important;
+}
+
+#dark .wrap {
+    background-image: unset;
+    background-color: #032139fc !important;
+}
+
+#dark .contacts .selected {
+    background-color: #b3b3b375;
+}
+
+#dark .content_message {
+    background-color: #6f7486;
+}
+
+#dark .chat_input_icons svg {
+    color: #66a0cf !important;
+}
+
+#dark .input-container button {
+    background-color: #011627 !important;
+}
+
+#dark .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #79bae2 !important;
+}
+
+#dark .ant-tabs-ink-bar {
+    background: #77c3f6 !important;
+}
+
+
+
+
+
+#crimson {
+    background-color: #fff !important;
+    color: #333 !important;
+}
+
+#crimson .chat_container {
+    background-image: unset;
+    background-color: #000000 !important;
+    color: #333 !important;
+}
+
+#crimson .contact_container {
+    background-color: #990033e1 !important;
+}
+
+#crimson .containerr {
+    background-color: #990033c8 !important;
+}
+
+#crimson .contacts .selected {
+    background-color: #b3b3b375;
+}
+
+#crimson .content_message {
+    background-color: #a94c4c;
+}
